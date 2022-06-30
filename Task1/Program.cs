@@ -28,6 +28,10 @@ namespace HelloWorld
                 {
                     Console.WriteLine("Данная точка принадлежит к IV четверти!");
                 }
+                if(x==0 ^ y==0)
+                {
+                    Console.WriteLine("Не соответствует условию!");
+                }
         }
     }
 }
