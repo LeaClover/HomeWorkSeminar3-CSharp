@@ -29,3 +29,43 @@ namespace HelloWorld
         }
     }
 }
+
+// // Задача 1. Напишите программу, которая принимает на вход координаты точки (X и Y), 
+// // причём X ≠ 0 и Y ≠ 0 и выдаёт номер четверти плоскости, в которой находится эта точка.
+// namespace task1;
+// class Program
+// {
+//     public static void Main(string[] args)
+//     {
+//         Console.WriteLine("Введите номер четверти:");
+//         int quarter = Convert.ToInt32(Console.ReadLine());
+//         int nummax = int.MaxValue;
+//         int nummin = int.MinValue;
+//         int minx = 0;
+//         int miny = 0;
+//         int maxx = 0;
+//         int maxy = 0;
+//         if (quarter == 1)
+//         {
+//             minx = 0;
+//             maxx = nummax;
+//             miny = 0;
+//             maxy = nummax;
+//         }
+//          if (quarter == 2)
+//         {
+//             minx = nummin;
+//             maxx = 0;
+//             miny = 0;
+//             maxy = nummax;
+//         }
+//         if (quarter == 3)
+//         {
+//             minx = nummin;
+//             maxx = 0;
+//             miny = nummin;
+//             maxy = 0;
+//         }
+//         if (quarter == 4)
+//         {
+//             minx = 0;
