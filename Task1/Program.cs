@@ -3,7 +3,7 @@
 // в которой находится эта точка.
 
 
-namespace HGB.CSharp.Seminar3
+namespace GB.CSharp.Seminar3
 {
     class Task1
     {
