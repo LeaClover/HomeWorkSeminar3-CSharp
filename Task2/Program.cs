@@ -1,9 +1,9 @@
 ﻿// Задача 2. Напишите программу, которая по заданному номеру четверти, 
 // показывает диапазон возможных координат точек в этой четверти (x и y).
 
-namespace HelloWorld
+namespace GB.CSharp.Seminar3
 {
-    class Program
+    class Task2
     {
         static void Main(string[] args)
         {
