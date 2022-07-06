@@ -1,9 +1,11 @@
 ﻿// Задача 1. Напишите программу, которая принимает на вход координаты 
 // точки (X и Y), причём X ≠ 0 и Y ≠ 0 и выдаёт номер четверти плоскости, 
 // в которой находится эта точка.
-namespace HelloWorld
+
+
+namespace HGB.CSharp.Seminar3
 {
-    class Program
+    class Task1
     {
         static void Main(string[] args)
         {
@@ -29,6 +31,10 @@ namespace HelloWorld
                     Console.WriteLine("Данная точка принадлежит к IV четверти!");
                 }
                 if(x==0 ^ y==0)
+                {
+                    Console.WriteLine("Не соответствует условию!");
+                }
+                if(x==0 && y==0)
                 {
                     Console.WriteLine("Не соответствует условию!");
                 }
