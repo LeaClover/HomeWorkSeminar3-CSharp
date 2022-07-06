@@ -5,9 +5,9 @@
 // 12821 -> да
 // 23432 -> да
 
-namespace HelloWorld
+namespace GB.CSharp.Seminar3
 {
-    class Program
+    class HomeWorkTask1
     {
         static void Main(string[] args)
         {
